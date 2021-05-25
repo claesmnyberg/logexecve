@@ -8,7 +8,7 @@
 4. Edited logex.c and set the syscall number
 
 ## How to build
-1. Merge source from ./src/sys into /usr/src/sys
+1. Merge source into /usr/src/sys
 2. Compile and install new kernel
 3. Compile logex by running make
 
@@ -35,7 +35,7 @@ obsd69# logex
 	** No users set to log!
 ```
 
-We can also get a usage descrption with the -h option:
+We can also get a usage description with the -h option:
 
 ```
 obsd69# logex -h
