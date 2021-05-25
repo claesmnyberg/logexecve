@@ -22,7 +22,9 @@ The logging configuration is kept in kernel memory only and
 is not preserved during reboot. Unless logex is executed
 during boot nothing is logged. We get the current configuration
 by simply running logex without arguments:
+
 ...
+
 obsd69# logex                                                                                 
 	  on: yes
 	 env: no
@@ -38,6 +40,7 @@ obsd69# logex
 We can also get a usage descrption with the -h option:
 
 ...
+
 obsd69# logex -h
 
 Configure logging of calls to execve(2)
@@ -59,12 +62,16 @@ Log options:
 ...
 
 So, to see all execve(2) calls made by root, run logex:
+
 ...
+
 obsd69# logex -u root
 ...
 
 And check that the configuration was installed:
+
 ...
+
 obsd69# logex                                                                                 
    on: yes
   env: no
