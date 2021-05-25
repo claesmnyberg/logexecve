@@ -1,7 +1,7 @@
 /*
  *  logexecve.h - Header file for execve logger
  *
- *  Copyright (c) 2004 Claes M. Nyberg <md0claes@mdstud.chalmers.se>
+ *  Copyright (c) 2004-2021 Claes M. Nyberg <cmn@signedness.org>
  *  All rights reserved, all wrongs reversed.
  *
  *  Redistribution and use in source and binary forms, with or without
