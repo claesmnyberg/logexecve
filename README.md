@@ -1,7 +1,7 @@
 # OpenBSD Kernel modification for logging execve calls
-## By Claes M Nyberg, Spring 2021
+## By Claes M Nyberg, ©️ 2004-2021
 
-## How this was implemented
+## Merged kernel module from 2004 into kernel
 1. Edited /src/sys/kern_exec.c and added new syscall and wrapper function for sys_execve
 2. Appended sys_logexecve to syscalls.master 
 3. Executed 'make syscalls' in /sys/kern
@@ -9,12 +9,12 @@
 
 ## How to build
 1. Merge source into /usr/src/sys
-2. Compile and install new kernel
+2. Compile new kernel
 3. Compile logex by running make
 
 ## How to install
 1. Copy kernel to /bsd
-2. Copy logex binary to /bin
+2. Copy logex binary to /bin/logex
 
 
 ## Usage
