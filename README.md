@@ -10,7 +10,15 @@
 ## How to build
 1. Merge source into /usr/src/sys
 2. Compile new kernel
-3. Compile logex (by running make)
+
+	- cd /sys/arch/$(machine)/conf
+	- config GENERIC
+	- cd ../compile/GENERIC/
+	- make
+
+4. Compile logex
+	- cd logex
+	- make
 
 ## How to install
 1. Copy kernel to /bsd
